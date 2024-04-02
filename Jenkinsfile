@@ -1,5 +1,5 @@
 pipeline {
-    agent { any } // Run on any available node
+    agent  any // Run on any available node
 
     stages {
         stage('Print Hello World') {
